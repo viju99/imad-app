@@ -8,7 +8,8 @@ var config = {
     database: 'viju99',
     host: 'db.imad.hasura.io',
     port: '5432',
-    password: process.env.DB_PASSWORD
+    password: 'db-viju99-18966'
+    //password: process.env.DB_PASSWORD
 };
 
 
