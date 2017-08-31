@@ -23,7 +23,7 @@ button.onclick = function() {
   request.send(null);
 };
 */
-console.log("here");
+console.log('here');
 var submit = document.getElementById('submit_btn');
 submit.onclick = function() {
   console.log('reached function');
