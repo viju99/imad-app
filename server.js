@@ -109,8 +109,8 @@ function createTemplate (data) {
 }
 
 app.get('/', function (req, res) {
+  console.log('reached here');    
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
-  console.log('reached here');
 });
 
 function hash(input, salt){
